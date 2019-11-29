@@ -1,0 +1,135 @@
+body {
+  background-color: #85cff7;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#list_section {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  list-style-type: none;
+  width: 55%;
+  margin: 0px auto;
+  border-radius: 3px;
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: none;
+  border-radius: 10px;
+  overflow: auto;
+  position: relative;
+}
+
+p {
+  background-color: #fff;
+  color: #666;
+  padding: 10px;
+  display: inline-block;
+  margin: 20px auto 20px auto;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.item {
+  background-color: #fff;
+  color: #000;
+}
+
+input[type='text'] {
+  font-size: 12px;
+  padding: 6px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+input[type='submit'] {
+  border: none;
+  padding: 2px 15px;
+  color:white;
+  font-weight: bold;
+  background-color: #40ca3c;
+  font-size: 20px;
+  border-radius: 4px;
+}
+#add {
+   border: none;
+  background-color:#40ca3c;
+  border-bottom: 3px solid #44BB94;
+  padding: 2px 15px;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 4px;
+}
+#supp > button, li > button {
+  border: none;
+  background-color:#ca433c;
+  border-bottom: 3px solid#BB4A44;
+  padding: 2px 15px;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 4px;
+  top: -5px;
+  left: 45%;
+  float: right;
+  margin: -5px;
+}
+#newItemButton {
+  display: none;
+}
+
+#itemField {
+  margin-top: 60px;
+  width: 10%;
+  font-size: 13px;
+}
+#supp {
+  display: none;
+}
+#Supprimer , #erase {
+  border: none;
+  background-color:#ca433c;
+  padding: 2px 15px;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 4px;
+}
+#vider {
+    border-bottom: 3px solid#BB4A44;
+}
+#note > textarea {
+  height: 400px;
+  width: 100%;
+  font-size: 20px;
+}
+#note {
+  display: inline-block;
+  width: 30%; 
+  position: absolute;
+}
+#list_section {
+  text-align: center;
+  width: 69%;
+  display: inline-block;
+}
+footer {
+	padding-top: 23%;
+	text-align: center;
+}

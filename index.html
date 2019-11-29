@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>A FAIRE</title>
+    <link rel="stylesheet" href="app.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="list_section">
+        <h1 id="header">Tâche de la journée</h1>
+        <img src="img/esdi.jpg" alt="logo">
+        <ul>
+            <div id="supp"><button>Tous supprimer</button></div>
+
+        </ul>
+        <div id="newItemButton"><button href="#">new item</button></div>
+        <form id="newItemForm">
+            <input type="text" id="itemField" placeholder="Tâche" />
+
+            <span class="add""><i class="fa fa-check">
+                    <input type="submit" id="Ajouter" value="Ajouter" /></i></span>
+            <span class="suppr"><i class="fa fa-times"></i></button>
+					<input type="button" id="Supprimer" value="Tous vider" /></span>
+        </form>
+    </div>
+    <div id="note">
+        <textarea class="note" placeholder="bloc-note"></textarea>
+    </div>
+	<footer>
+	<span class="signature">2019 - ToDoList - Réalisé par Antoine Heidet.</span>
+	</footer>
+    <script src="https://code.jquery.com/jquery-1.12.3.js"
+        integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+	
+</body>
+
+</html>
